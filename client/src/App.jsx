@@ -34,7 +34,7 @@ export default function App() {
 
   return (
     <main className="container">
-      <h1 className="title">To Do List</h1>
+      <h1 className="title">Task Management Application</h1>
       <form className="form" onSubmit={createNewTodo}>
         <input 
         type="text"
@@ -44,7 +44,7 @@ export default function App() {
         className="form__input"
         required 
         />
-        <button className="form__button" type="submit">Create Todo</button>
+        <button className="form__button" type="submit">Create Task</button>
       </form>
       <div className="todos">
         {(todos.length > 0) &&
